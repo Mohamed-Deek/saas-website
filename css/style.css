@@ -1,3 +1,4 @@
+/* ? Base css styling */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,4 +10,17 @@ body{
     font-size: 16px;
     line-height: 1.5;
     background: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
 }
