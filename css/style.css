@@ -24,3 +24,41 @@ ul{
 img{
     max-width: 100%;
 }
+
+/* ? Navbar styling */
+.navbar{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul{
+    display: flex;
+}
+.navbar ul li a{
+    padding: 10px 20px;
+    font-weight: 600;
+    display: block;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+    color: #4891ff;
+}
+/* /* ? Utility classes  */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-sm{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
