@@ -123,6 +123,40 @@ img{
     font-weight: bold;
 }
 
+/* ? Pricing section */
+.pricing .pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.pricing .pricing-card-subheading{
+    margin-bottom: 30px;
+}
+
+.pricing .pricing-card-price{
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.pricing ul{
+    margin: 30px 0;
+}
+
+.pricing ul li{
+    margin-bottom: 20px;
+}
+
+.pricing ul li i{
+    margin-right: 10px;
+}
+
+.pricing .pricing-footer{
+    margin: 30px 0;
+}
+
 
 /* ? Utility classes  */
 .container{
@@ -137,6 +171,15 @@ img{
     padding: 0 auto;
 }
 
+/* ? Card utilities */
+.card{
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
 /* ? Buttons */
 .btn{
     display: inline-block;
@@ -145,6 +188,7 @@ img{
     color: #333;
     font-weight: 600;
     text-decoration: none;
+    text-align: center;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -206,7 +250,7 @@ img{
     margin: 10px 0 5px;
 }
 
-.tetx-center{
+.text-center{
     text-align: center;
 }
 
@@ -231,13 +275,6 @@ img{
     color: #fff;
 }
 
-/* ? Card utilities */
-.card{
-    background-color: #fff;
-    color: #000;
-    border-radius: 10px;
-    padding: 20px;
-}
 
 
 
