@@ -24,14 +24,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
         otherGrops.forEach((otherGrops)=>{
             if(otherGrops !== group){
-                const otherGropsBody = otherGrops.querySelector('.faq-group-header');
+                const otherGropsBody = otherGrops.querySelector('.faq-group-body');
                 const otherIcons = otherGrops.querySelector('.faq-group-header i');
 
                 otherGropsBody.classList.remove('open');
                 otherIcons.classList.remove('fa-minus');
                 otherIcons.classList.add('fa-plus');
             }
-
         })
     })
 })
