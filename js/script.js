@@ -20,14 +20,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
         groupBody.classList.toggle('open');
 
         //! Close other FAQ bodies
-        const otherGrops = faqContent.querySelectorAll('.faq-group');
+        const otherGroups = faqContent.querySelectorAll('.faq-group');
 
-        otherGrops.forEach((otherGrops)=>{
+        otherGroups.forEach((otherGrops)=>{
             if(otherGrops !== group){
-                const otherGropsBody = otherGrops.querySelector('.faq-group-body');
-                const otherIcons = otherGrops.querySelector('.faq-group-header i');
+                const otherGroupsBody = otherGroups.querySelector('.faq-group-body');
+                const otherIcons = otherGroups.querySelector('.faq-group-header i');
 
-                otherGropsBody.classList.remove('open');
+                otherGroupsBody.classList.remove('open');
                 otherIcons.classList.remove('fa-minus');
                 otherIcons.classList.add('fa-plus');
             }
